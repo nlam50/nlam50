@@ -1,9 +1,12 @@
 # Nia Lam
 # peaches & mangoes
 # SoftDev
-# K<nn> -- <>
-# <2024>-<09>-<17>
-# time spent: <elapsed time in hours, rounded to nearest tenth>
+# K05
+# 2024-09-17
+# time spent: 0.8
+
+# warning: will not work if "$$$" or "@@@" are substrings of names
+
 
 import random
 k = open('krewes.txt')
@@ -15,7 +18,7 @@ k_str = k.read()
 
 
 # list of dictionaries representing each devo
-# each dictionary is of the form {<name>: [<period>, <ducky>}
+# each dictionary is of the form {<name>: [<period>, <ducky>]}
 
 
 k_list = k_str.split("@@@")
@@ -31,13 +34,7 @@ for i in k_list:
 # print(k_list2)
 random_devo = random.choice(k_list2)
 # randomly selected a devo
-
-
-keys = random_devo.keys()
-for key in keys:
-    print("Devo name: " + key)
-values = random_devo.values()
-for value in values:
-    print("Period: " + value[0])
-    print("Ducky name: " + value[1])
+print("Devo: " + list(random_devo.keys())[0])
+print("Period: " + list(random_devo.values())[0][0])
+print("Ducky name: " + list(random_devo.values())[0][1])
 # prints random devo's name, period, and ducky name
