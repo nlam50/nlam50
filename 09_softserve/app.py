@@ -11,7 +11,7 @@ DISCO:
 - @app.route("/") front
 
 QCC:
-0. how to return multiple print statements?
+0. how to return multiple? is there a "better" way than a long string for html?
  ...
 
 INVESTIGATIVE APPROACH:
@@ -33,13 +33,16 @@ def RandomManual():
     # find a valid percentage, subtract percents until random <=0 and we can return the corresponding jobs
     rand = random.random() * percents[-1]
     for i in range(len(percents)):
-        rand -= percents[i]
+        rand -= percents[i]  
         if rand <= 0:
             return jobs[i]
 
 def htmlOut():
-    output = "<h1>63</h1>\n"
+    output = "<h1>63: Stanley Hoo, Nia Lam, Jady Lei</h1>\n"
     output += "<p>Period 4</p>\n"
+    output += "<h2>"
+    output += RandomManual()
+    output += "</h2>"
     output += "<ul>"
     for job in jobs[:-1]:
         output += "\t <li>"
@@ -54,7 +57,7 @@ app = Flask(__name__)
 @app.route("/")                         
 def hello_world():
     print(__name__)                  
-    return htmlOut()           
+    return htmlOut()
 
 app.debug = True
 app.run()       
