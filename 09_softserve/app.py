@@ -55,9 +55,9 @@ def htmlOut():
 app = Flask(__name__)        
 
 @app.route("/")                         
-def hello_world():
-    print(__name__)                  
-    return htmlOut()
+# def hello_world():
+#     print(__name__)                  
+#     return htmlOut()
 
 app.debug = True
 app.run()       
