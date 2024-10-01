@@ -34,7 +34,6 @@ def randocc():
 
 @app.route("/wdywtbwygp")
 def test_tmplt():
-    
     return render_template('tablified.html',
                            foo = "random occupations generator",
                            rand = randocc(),
