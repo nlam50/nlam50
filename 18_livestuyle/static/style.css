@@ -2,12 +2,13 @@
 /* */
 html {
     background-color: #666666;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Arial";
 }
 
 body {
     background-color: #767676;
     color: black;
+    font-family: "Open Sans", sans-serif;
 }
 
 h1 {
