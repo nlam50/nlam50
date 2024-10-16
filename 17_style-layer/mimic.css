@@ -20,6 +20,7 @@ h1 {
 .container {
     display: flex;
     margin-left: 10px;
+    margin-right: 10px;
 }
 
 nav {
@@ -35,7 +36,7 @@ ul {
 }
 
 .container div {
-    flex: 3;
+    flex: 4;
 }
 
 footer {
