@@ -26,7 +26,7 @@ c.execute("CREATE TABLE courses (code TEXT, mark INTEGER, id INTEGER)")
 with open("courses.csv", "r") as file:
     dict_reader = csv.DictReader(file)
     for row in dict_reader:
-        c.execute("INSERT INTO courses (code, mark, id) VALUES (?, ?, ?)", (row['code'], row['mark'], row['id']))
+        c.execute("INSERT INTO courses (code, mark, id) VALUES (?, ?, ?);", (row['code'], row['mark'], row['id']))
         #print(row['code'], row['mark'], row['id'])
 
 #csv.DictReader() makes a dictionary out of a csv file
