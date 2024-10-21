@@ -1,4 +1,4 @@
-#Clyde "Thluffy" Sinclair
+#peaches & mangoes: Anastasia Lee, Nia Lam, Naomi Lai
 #SoftDev
 #skeleton/stub :: SQLITE3 BASICS
 #Oct 2024
@@ -14,26 +14,23 @@ c = db.cursor()               #facilitate db ops -- you will use cursor to trigg
 
 #==========================================================
 
-
-"""
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-< < < INSERT YOUR TEAM'S DB-POPULATING CODE HERE > > >
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-"""
-
-c.execute("CREATE TABLE courses (code TEXT, mark INTEGER, id INTEGER)")
-
+c.execute("CREATE TABLE courses (code TEXT, mark INTEGER, id INTEGER)")     # create courses table
 with open("courses.csv", "r") as file:
-    dict_reader = csv.DictReader(file)
-    for row in dict_reader:
-        c.execute("INSERT INTO courses VALUES (?, ?, ?);", (row['code'], row['mark'], row['id']))
-        #print(row['code'], row['mark'], row['id'])
+    dict = csv.DictReader(file)
+    for row in dict:
+        command = "INSERT INTO courses (code, mark, id) VALUES " 
+        command += "('" + row['code'] + "', '" + row['mark'] + "', '" + row['id'] + "');"  # adding data to db
+        # print(command)
+        c.execute(command)      # run SQL statement
 
-#csv.DictReader() makes a dictionary out of a csv file
-
-
-#command = ""          # test SQL stmt in sqlite3 shell, save as string
-#c.execute(command)    # run SQL statement
+c.execute("CREATE TABLE students (name TEXT, age INTEGER, id INTEGER)")     # create students table
+with open("students.csv", "r") as file:
+    dict = csv.DictReader(file)
+    for row in dict:
+        command = "INSERT INTO students (name, age, id) VALUES " 
+        command += "('" + row['name'] + "', '" + row['age'] + "', '" + row['id'] + "');"  # adding data to db
+        # print(command)
+        c.execute(command)      # run SQL statement
 
 #==========================================================
 
