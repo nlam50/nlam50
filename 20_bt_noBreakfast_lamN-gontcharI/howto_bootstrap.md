@@ -1,4 +1,4 @@
-how-to :: bootstrap
+**how-to :: bootstrap**
 
 **Overview**
 
