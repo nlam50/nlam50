@@ -16,7 +16,6 @@ from flask import Flask, render_template
 import urllib.request
 import requests
 import json
-import os
 
 
 app = Flask(__name__)
@@ -24,7 +23,7 @@ app = Flask(__name__)
 @app.route("/")
 def main():
     with open("key_nasa.txt", "r") as file:
-        api_key = file.read()
+        api_key = file.read().strip()
     """
     with urllib.request.urlopen(f"https://api.nasa.gov/planetary/apod?api_key={api_key}") as response:
         html = response.read()
@@ -48,7 +47,6 @@ def main():
     print(html)
     print(nasa)
     """
-    return(print("Current working directory:", os.getcwd()))
     return(render_template("main.html", title=title, img_url=img, description=explain, date=date, copyright=copy))
 
 if __name__ == "__main__":
