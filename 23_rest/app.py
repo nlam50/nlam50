@@ -21,7 +21,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    with open("key_nasa.txt") as file:
+    with open("key_nasa.txt", "r") as file:
         api_key = file.read()
     """
     with urllib.request.urlopen(f"https://api.nasa.gov/planetary/apod?api_key={api_key}") as response:
