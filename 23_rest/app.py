@@ -16,6 +16,8 @@ from flask import Flask, render_template
 import urllib.request
 import requests
 import json
+import os
+
 
 app = Flask(__name__)
 
@@ -46,7 +48,7 @@ def main():
     print(html)
     print(nasa)
     """
-        
+    return(print("Current working directory:", os.getcwd()))
     return(render_template("main.html", title=title, img_url=img, description=explain, date=date, copyright=copy))
 
 if __name__ == "__main__":
