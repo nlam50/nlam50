@@ -1,35 +1,5 @@
-/*
-  your PPTASK:
-  
-  First, familiarize yourself with the given html file for this work.
-
-      then...
-
-  Test drive each bit of code in this file,
-  and insert comments galore, indicating anything
-  you discover,
-  have questions about,
-  or otherwise deem notable.
-
-  Have the given html file open as you work.
-  
-  Write with your future self or teammates in mind.
-  
-  If you find yourself falling out of flow mode, consult 
-  - other teams
-  - MDN
-
-  A few comments have been pre-filled for you...
-  
-  (delete this block comment once you are done)
-*/
-
-
-
-
-
-// Team Phantom Tollbooth :: Clyde Sinclair, Fierce Dragon 
-// SoftDev pd0
+// magical magnolias : Nia Lam and Naomi classList
+// SoftDev pd4
 // K28 -- Getting more comfortable with the dev console and the DOM
 // 2025-01-07t
 // --------------------------------------------------
@@ -44,7 +14,7 @@ var j = 20;
 
 
 //assign an anonymous fxn to a var
-var f = function(x) 
+var f = function(x)
 {
     var j=30;
     return j+x;
@@ -102,9 +72,38 @@ var stripe = function()
 
 //insert your implementations here for...
 // FIB
+
+var fib = function(n){
+    if (n==0){
+        return 0;
+    }
+    if (n==1){
+        return 1;
+    }
+    else return (fib(n-1) + fib(n-2));
+}
+
 // FAC
+
+var fac = function(n){
+    if (n==1){
+        return n;
+    }
+    else return (n * fac(n-1));
+}
+
 // GCD
 
+var gcd = function(a,b){
+    // console.log("gcd(",a,",",b,")")
+    if(a>b){
+        return gcd(b,a)
+    }
+    if(a==0){
+        return b
+    }
+    else return gcd(b%a, a)
+}
 
 // In addition to the style shown above,
 //  you are encouraged to test drive the "arrow function syntax" as shown below.
@@ -114,3 +113,6 @@ const myFxn = (param1, param2) => {
     return retVal;
 };
 
+addItem(fib(5))
+addItem(fac(5))
+addItem(gcd(10,5))
