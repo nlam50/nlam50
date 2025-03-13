@@ -1,0 +1,21 @@
+Frivolous Ferrets - Nia Lam and Amanda Tan
+SoftDev
+K25 - mxrobbotto
+2025-03-14
+time spent: 1
+
+DISCO:
+- be wary of additional packages that it tries to suggest
+- if you ask it to generate a text file of the conversation, it will do so and you will be able to download the text file
+- you are able to open and move between files of the project that it generates (they are also all downloadable)
+- when asked not to do something, it tended to ignore the direction and simply proceed with what it was originally doing
+- providing the requirements.txt file and the import lines of the python files allowed us to achieve the desired outcome (to not use unverified modules)
+- in general, more specificity and exact words lead to better outcomes
+- it cannot directly create or upload images
+- when asked to create an image (jpg) it provided us with a python script to generate an image (using the Pillow library)
+
+Q/C/C:
+some areas of interest...
+q0: How many tries did it take to "get it right?"
+q1: Did you catch any errors? If so, how did you notice, and what did you do?
+q2: How similar or different is the bot's output to that of your past self / old team?
