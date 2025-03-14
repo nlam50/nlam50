@@ -13,6 +13,7 @@ DISCO:
 - in general, more specificity and exact words lead to better outcomes
 - it cannot directly create or upload images
 - when asked to create an image (jpg) it provided us with a python script to generate an image (using the Pillow library)
+- when asked to revise the ASCII art for the team flag, it did not listen, providing us with the same outpu (we are now "Fimestes," according to copilot)
 
 Q/C/C:
 some areas of interest...

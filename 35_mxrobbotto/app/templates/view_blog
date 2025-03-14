@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block title %}View Blog - Frivolous Ferrets{% endblock %}
+
+{% block content %}
+<h2>{{ blog[1] }}</h2>
+<p>{{ blog[2] }}</p>
+<p><em>by User {{ blog[3] }}</em></p>
+{% endblock %}
