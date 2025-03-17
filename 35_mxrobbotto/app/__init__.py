@@ -1,14 +1,16 @@
+# Frivolous Ferrets - Nia Lam and Amanda Tan
+# SoftDev
+# K35 - mxrobbotto
+# 2025-03-14
+# time spent: 2.5
+
 from flask import Flask
-import os
-from .models import init_db
 
 def create_app():
-    app = Flask(__name__, instance_relative_config=True)
-    app.config.from_pyfile('config.py')
+    app = Flask(__name__)
+    app.config['SECRET_KEY'] = 'your_secret_key'
 
     with app.app_context():
-        init_db()
-
-    from . import routes
+        from . import routes
 
     return app

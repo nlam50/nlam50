@@ -1,3 +1,9 @@
+# Frivolous Ferrets - Nia Lam and Amanda Tan
+# SoftDev
+# K35 - mxrobbotto
+# 2025-03-14
+# time spent: 2.5
+
 import sqlite3
 import os
 from flask import g

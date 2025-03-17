@@ -1,8 +1,8 @@
 Frivolous Ferrets - Nia Lam and Amanda Tan
 SoftDev
-K25 - mxrobbotto
+K35 - mxrobbotto
 2025-03-14
-time spent: 1
+time spent: 2.5
 
 DISCO:
 - be wary of additional packages that it tries to suggest
@@ -13,10 +13,18 @@ DISCO:
 - in general, more specificity and exact words lead to better outcomes
 - it cannot directly create or upload images
 - when asked to create an image (jpg) it provided us with a python script to generate an image (using the Pillow library)
-- when asked to revise the ASCII art for the team flag, it did not listen, providing us with the same outpu (we are now "Fimestes," according to copilot)
+- when asked to revise the ASCII art for the team flag, it did not listen, providing us with the same output (we are now "Fimestes," according to copilot)
+- copilot originally provided a “text file” of the chat log but when prompted again for a “txt file”, said it could not provide such
+  - the text file it provides is brief and code segments from the past conversation are repeated in the format copilot normally provides
+- there is no export feature for copilot conversations
 
 Q/C/C:
 some areas of interest...
 q0: How many tries did it take to "get it right?"
+- 7
+
 q1: Did you catch any errors? If so, how did you notice, and what did you do?
+- We noticed the errors when we ran the code or when the code it provided did not match the directory guide that it provided. For errors with missing code, we asked copilot to provide the missing code and it did. All the CSS was originally not included. For errors that occurred when running the code, we told copilot the issue, what we did to receive the issue and a code of the error messages. Copilot then provided us with revised code
+
 q2: How similar or different is the bot's output to that of your past self / old team?
+- Copilot separated functionalities more than we did, as if taking each instruction and executing it individually. Blogs were only editable through the profile page and not the home page in the AI version. We originally mistook this for a mistake in missing the functionality entirely, before accepting that we had different interpretations of the objective. Copilot also does not go to great, or medium lengths with CSS, leaving the bullet points for list items.
