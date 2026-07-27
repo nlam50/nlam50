@@ -26,3 +26,5 @@ I’m set to graduate in May 2029, and my goal is to become a Software Engineer 
  
 ## Interests  
 Though I don't do it as much as I like, I enjoy painting, scrapbooking, and printmaking. I've recently worked on the art for an indie game team I was on! I also love trying new things, whether that's listening to a friend's music recommendation, eating at a new restaurant, or experimenting at the thrift store. When I'm not outside, I'll play some cards, mahjong, or nintendo games.  
+
+<br/>
