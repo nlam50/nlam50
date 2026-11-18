@@ -8,6 +8,7 @@ Computer Science & Information Science @ UW–Madison · Break Through Tech AI F
   <a href="https://www.linkedin.com/in/nia-lam"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" height="40" /></a>
 </p>
 https://www.linkedin.com/in/nia-lam
+
 nlam5@wisc.edu
 <br/>
 
