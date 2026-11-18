@@ -3,8 +3,10 @@
 **Aspiring Software Engineer building human-centered, ML-powered products**<br/>
 Computer Science & Information Science @ UW–Madison · Break Through Tech AI Fellow · Graduating May 2029
 
-(mailto:nlam5@wisc.edu)
-(https://www.linkedin.com/in/nia-lam)
+<p align="left">
+  <a href="mailto:nlam5@wisc.edu"><img src="https://skillicons.dev/icons?i=gmail" alt="Email" height="40" /></a>
+  <a href="https://www.linkedin.com/in/nia-lam"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" height="40" /></a>
+</p>
 
 <br/>
 
