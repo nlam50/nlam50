@@ -3,8 +3,8 @@
 **Aspiring Software Engineer building human-centered, ML-powered products**<br/>
 Computer Science & Information Science @ UW–Madison · Break Through Tech AI Fellow · Graduating May 2029
 
-[![Email](https://img.shields.io/badge/Email-nlam5%40wisc.edu-c5050c?style=flat&logo=gmail&logoColor=white)](mailto:nlam5@wisc.edu)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-nia--lam-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nia-lam)
+(mailto:nlam5@wisc.edu)
+(https://www.linkedin.com/in/nia-lam)
 
 <br/>
 
@@ -32,10 +32,6 @@ I'm currently looking for **Software Engineering internships**. If you're workin
 <br/>
 
 ## Tech Stack
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=java,python,html,css,js,flask,tailwind,pytorch,sklearn,git,github,vscode,linux,sqlite&perline=7" alt="Tech stack icons" />
-</p>
-
 - **Languages:** Java, Python, HTML, CSS, JavaScript
 - **ML & Data Science:** PyTorch, Hugging Face Transformers, scikit-learn, pandas, NumPy
 - **Web Development:** Flask, Tailwind CSS
