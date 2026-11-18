@@ -1,28 +1,55 @@
-## About Me  
-Hi, I'm Nia! I'm a sophomore at UW–Madison, double majoring in Computer Science & Information Science with a Digital Studies certificate.
+# Hi, I'm Nia Lam 👋
 
-I love creating tech that makes people's lives easier. In high school, I built a handwriting recognition tool to aid with visual accessibility, and most recently, I've been working on an ML project with Accenture through Break Through Tech with that continued desire to help. With a background in software development, machine learning, and interaction design, I've found my sweet spot where deep engineering meets human-centric design.
+**Aspiring Software Engineer building human-centered, ML-powered products**<br/>
+Computer Science & Information Science @ UW–Madison · Break Through Tech AI Fellow · Graduating May 2029
 
-I’m set to graduate in May 2029, and my goal is to become a Software Engineer working on impactful, innovative products that keep people at the center. If you’re passionate about human-centered tech, have insights to share, or want to collaborate on meaningful projects, let me know!  
-
-<br/>
-
-## Tech Stack  
-- Languages: Java, Python  
-- Data Science: Pandas, NumPy, scikit-learn  
-- Web Dev: HTML, CSS, JavaScript, Flask, Tailwind  
-- Tools: Git, GitHub, VSCode, Jupyter Notebooks, Linux CLI  
-- Databases: SQLite
+[![Email](https://img.shields.io/badge/Email-nlam5%40wisc.edu-c5050c?style=flat&logo=gmail&logoColor=white)](mailto:nlam5@wisc.edu)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-nia--lam-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nia-lam)
 
 <br/>
 
-## Contacts  
-- Email: [nlam5@wisc.edu](url)  
-- LinkedIn: [www.linkedin.com/in/nia-lam](url)
+## About Me
+I'm a sophomore at UW–Madison double majoring in Computer Science and Information Science, with a Digital Studies certificate. My goal is to become a **Software Engineer** who builds impactful products that keep people at the center.
+
+I've built tools that make technology more accessible, from a handwriting recognition tool for visual accessibility in high school to a legal-contract NLP pipeline for Accenture through Break Through Tech AI. My background in software development, machine learning and interaction design lets me connect solid engineering with thoughtful user experience.
+
+I'm currently looking for **Software Engineering internships**. If you're working on human-centered tech, I'd love to connect!
 
 <br/>
- 
-## Interests  
-I love art! I enjoy painting, scrapbooking, and printmaking. I've recently worked on the art for an indie game team I was on! I also love trying new things, whether that's listening to a friend's music recommendation, eating at a new restaurant, or experimenting with my wardrobe. When I'm not outside, I'll play cards, mahjong, or game on the Switch console.
+
+## Break Through Tech AI
+**AI Studio Fellow · Accenture Challenge** · Sep 2026 – Dec 2026
+[Contract Clause Detection and Risk Triage](https://github.com/Break-Through-Tech/Accenture-1T-contract-review-challenge)
+
+- Part of a 7-person team building an NLP pipeline that flags high-priority clauses in commercial contracts (CUAD dataset, 510 contracts).
+- Our fine-tuned Legal-BERT model reached **0.803 macro F1**, up from 0.683 for the best TF-IDF baseline.
+- **My contributions:** built the priority-scoping notebook, labeled and validated contract chunks, and led encoder and tokenizer selection (BERT vs. Legal-BERT vs. DeBERTa-v3).
+- **Tools:** Python, PyTorch, Hugging Face Transformers, scikit-learn, pandas, Jupyter, Colab
+
+**Machine Learning Foundations Fellow** · Summer 2026
+- Completed Break Through Tech's ML Foundations course (Cornell Tech / eCornell), covering supervised learning, model evaluation and Python for data science.
 
 <br/>
+
+## Tech Stack
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=java,python,html,css,js,flask,tailwind,pytorch,sklearn,git,github,vscode,linux,sqlite&perline=7" alt="Tech stack icons" />
+</p>
+
+- **Languages:** Java, Python, HTML, CSS, JavaScript
+- **ML & Data Science:** PyTorch, Hugging Face Transformers, scikit-learn, pandas, NumPy
+- **Web Development:** Flask, Tailwind CSS
+- **Tools:** Git, GitHub, VS Code, Jupyter Notebooks, Google Colab, Linux CLI
+- **Databases:** SQLite
+
+<br/>
+
+## GitHub Stats
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nlam50&layout=compact&hide_border=true" alt="Top languages" height="150" />
+</p>
+
+<br/>
+
+## Outside of Code
+I love art, especially painting, scrapbooking and printmaking, and I recently created the art for an indie game team. I also enjoy cards, mahjong and Nintendo Switch games.
