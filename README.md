@@ -11,7 +11,7 @@ Computer Science & Information Science @ UW–Madison · Break Through Tech AI F
 <br/>
 
 ## About Me
-I'm a sophomore at UW–Madison double majoring in Computer Science and Information Science, with a Digital Studies certificate. My goal is to become a **Software Engineer** who builds impactful products that keep people at the center.
+I'm a sophomore at UW–Madison double majoring in Computer Science and Information Science, with a Digital Studies certificate. My goal is to become a Software Engineer who builds impactful products that keep people at the center.
 
 I've built tools that make technology more accessible, from a handwriting recognition tool for visual accessibility in high school to a legal-contract NLP pipeline for Accenture through Break Through Tech AI. My background in software development, machine learning and interaction design lets me connect solid engineering with thoughtful user experience.
 
@@ -24,9 +24,9 @@ I'm currently looking for **Software Engineering internships**. If you're workin
 [Contract Clause Detection and Risk Triage](https://github.com/Break-Through-Tech/Accenture-1T-contract-review-challenge)
 
 - Part of a 7-person team building an NLP pipeline that flags high-priority clauses in commercial contracts (CUAD dataset, 510 contracts).
-- Our fine-tuned Legal-BERT model reached **0.803 macro F1**, up from 0.683 for the best TF-IDF baseline.
-- **My contributions:** built the priority-scoping notebook, labeled and validated contract chunks, and led encoder and tokenizer selection (BERT vs. Legal-BERT vs. DeBERTa-v3).
-- **Tools:** Python, PyTorch, Hugging Face Transformers, scikit-learn, pandas, Jupyter, Colab
+- Our fine-tuned Legal-BERT model reached 0.803 macro F1, up from 0.683 for the best TF-IDF baseline.
+- My contributions: built the priority-scoping notebook, labeled and validated contract chunks, and led encoder and tokenizer selection (BERT vs. Legal-BERT vs. DeBERTa-v3).
+- Tools: Python, PyTorch, Hugging Face Transformers, scikit-learn, pandas, Jupyter, Colab
 
 **Machine Learning Foundations Fellow** · Summer 2026
 - Completed Break Through Tech's ML Foundations course (Cornell Tech / eCornell), covering supervised learning, model evaluation and Python for data science.
