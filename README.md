@@ -21,7 +21,7 @@ I'm currently looking for **Software Engineering internships**. If you're workin
 
 ## Break Through Tech AI
 **AI Studio Fellow · Accenture Challenge** · Sep 2026 – Dec 2026
-[Contract Clause Detection and Risk Triage](https://github.com/Break-Through-Tech/Accenture-1T-contract-review-challenge)
+[Contract Clause Detection and Risk Classification](https://github.com/Break-Through-Tech/Accenture-1T-contract-review-challenge)
 
 - Part of a 7-person team building an NLP pipeline that flags high-priority clauses in commercial contracts (CUAD dataset, 510 contracts).
 - Our fine-tuned Legal-BERT model reached 0.803 macro F1, up from 0.683 for the best TF-IDF baseline.
