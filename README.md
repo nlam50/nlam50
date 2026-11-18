@@ -1,5 +1,3 @@
-~~ undergoing some renovations right now ~~
-
 ## About Me  
 Hi, I'm Nia! I'm a sophomore at UW–Madison, double majoring in Computer Science & Information Science with a Digital Studies certificate.
 
